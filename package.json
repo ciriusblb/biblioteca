@@ -1,0 +1,14 @@
+{
+  "name": "biblioteca",
+  "version": "1.0.0",
+  "description": "Este es un sistema administrativo de biblioteca",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "author": "Ciro Yupanqui y Romario Díaz",
+  "dependencies": {
+    "express": "^4.15.5",
+    "swig": "^1.4.2"
+  }
+}

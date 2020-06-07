@@ -1,0 +1,49 @@
+
+	<div id="login">
+		<div class="jumbotron" style="z-index: 9999">
+		<div class="container">
+			<div class="col-md-6">
+				<div class="" >
+					<span class="head-title"><h1>Bienvenido a BOOKS APP!!</h1></span>
+					<p>Bienvenido al sistema administrativo bibliotecario - UNAMAD</p>
+					<p>
+						<a href="" class="btn btn-btn btn-warning btn-lg" data-toggle="collapse" data-target="#Formulario">Registrate!!</a>
+						<a href="" class="btn btn-btn btn-warning btn-lg" data-toggle="collapse" data-target="#Login">Iniciar sesión!!</a>
+					</p>
+				</div>
+			</div>
+			<div class="col-md-6 collapse" id="Login">
+				<div class="col-md-12 top-login">
+					<div><span class="glyphicon glyphicon-user img-circle"></span></div>
+					<h3 class="logo-caption">Login</h3>
+				</div>
+				<div class="col-md-12 input-login">
+					<div class="">
+						<input type="text" ng-model="lc.login.username" placeholder="Username" class="form-control" />
+						<input type="text" ng-model="lc.login.Password" placeholder="Password" class="form-control" />
+						<button type="button" class="btn btn-warning btn-block btn-custom" ng-click="lc.sesion()">Login</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 collapse" id="Formulario">
+				<div class="col-md-12 top-login">
+					<div><span class="glyphicon glyphicon-user img-circle"></span></div>
+					<h3 class="logo-caption">Formulario</h3>
+				</div>
+				<div class="col-md-12 input-login">
+					<div class="">
+						<input type="text" name="username" placeholder="Nombre" class="form-control" />
+						<input type="text" name="username" placeholder="Apellido" class="form-control" />
+						<input type="text" name="username" placeholder="Código de estudiante" class="form-control" />
+						<input type="text" name="username" placeholder="Contraseña" class="form-control" />
+						<input type="text" name="username" placeholder="Telefono" class="form-control" />
+						<input type="text" name="username" placeholder="Carrera" class="form-control" />
+						<input type="text" name="username" placeholder="Email" class="form-control" />
+						<button type="button" class="btn btn-warning btn-block btn-custom">Enviar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<!-- <div id="particles-js"></div> -->
+	</div>	

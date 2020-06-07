@@ -1,0 +1,51 @@
+<nav class="navbar navbar-inverse sidebar" role="navigation" style="background: #2D3A42;">
+	    <div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="navbar-brand" style="height: 80px; display: flex;">
+					<img src="/img/demo/users/face10.png">
+					<p>Romario díaz</p>
+				</div>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li ui-sref-active="active">
+						<a ui-sref=".perfil">Profile
+							<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span>
+						</a>
+					</li>	
+					<li ui-sref-active="active">
+						<a ui-sref=".notificaciones">Notificaciones
+							<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-envelope"></span>
+						</a>
+					</li>
+					<li >
+						<a>salir
+							<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-triangle-left"></span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+<div class="main" ui-view>
+	
+</div>
+	<!-- <div class="main">
+		<div ng-show="(vm.active)==0"><ng-include src="'/views/main/home/perfil.html'" ></ng-include></div>
+		<div ng-show="(vm.active)==1"><ng-include src="'/views/main/home/notificaciones.html'" ></ng-include></div>
+	</div> -->
+
+
+
+
+ 
+
+
+
+

@@ -1,0 +1,190 @@
+<div id="escuelas">
+	<div class="container">
+		<div class="box" >
+			<div class="box-header">
+				{{vm.newsItem}}
+			</div>
+			<div class="box-body">
+				<div class="col-xs-12">
+					<!-- 0 -->
+					<div class="col-lg-3 col-xs-6 top0"   ng-class=" {'hide-top' : vm.view==1}"  style="margin-bottom: 15px;">
+						<div class="small-box skyble box-shadow">
+							<div class="inner">
+								<span class="zoom">
+									<p>{{vm.carreras[0].carrera}}</p>
+								</span>
+								<i class="glyphicon glyphicon-book icon-book"></i>
+							</div>
+							<div class=" text-center hardskyble">
+								<a href="" ng-click="vm.mover(vm.carreras[0].ruta)" class="small-box-footer">ver <i class="glyphicon glyphicon-eye-open"></i></a>
+							</div>
+						</div>
+					</div>
+					<!-- 1 -->
+					<div class="col-lg-3 col-xs-6 top1" ng-class=" {'hide-top' : vm.view==1}" style="margin-bottom: 15px;">
+						<div class="small-box skygreen box-shadow" >
+							<div class="inner">
+								<span class="zoom">
+									<p>{{vm.carreras[1].carrera}}</p>
+								</span>
+								<i class="glyphicon glyphicon-book icon-book"></i>
+							</div>
+							<div class=" text-center hardskygreen">
+								<a href="" ng-click="vm.mover(vm.carreras[1].ruta)" class="small-box-footer">ver <i class="glyphicon glyphicon-eye-open"></i></a>
+							</div>
+							
+						</div>
+					</div>
+					<!-- 2 -->
+					<div class="col-lg-3 col-xs-6 top2"    ng-class=" {'hide-top' : vm.view==1}"  style="margin-bottom: 15px;">
+						<div class="small-box skybrown box-shadow">
+							<div class="inner">
+								<span class="zoom">
+								<p>{{vm.carreras[2].carrera}}</p>
+								</span>
+								<i class="glyphicon glyphicon-book icon-book"></i>
+							</div>
+							<div class=" text-center hardskybrown">
+								<a href="" ng-click="vm.mover(vm.carreras[2].ruta)" class="small-box-footer">ver <i class="glyphicon glyphicon-eye-open"></i></a>
+							</div>
+						</div>
+					</div>
+					<!-- 3 -->
+					<div class="col-lg-3 col-xs-6 right3"  ng-class=" {'hide-right' : vm.view==1}"  style="margin-bottom: 15px;">
+						<div class="small-box skyred box-shadow">
+							<div class="inner">
+								<span class="zoom" style="width: 100%;">
+								<p>{{vm.carreras[3].carrera}}</p>
+								</span>
+								<i class="glyphicon glyphicon-book icon-book"></i>
+							</div>
+							<div class=" text-center hardskyred">
+								<a href="" ng-click="vm.mover(vm.carreras[3].ruta)" class="small-box-footer">ver <i class="glyphicon glyphicon-eye-open"></i></a>
+							</div>
+						</div>
+					</div>
+					<!-- 4 -->
+					<div class="col-lg-3 col-xs-6 top4"  ng-class=" {'hide-top' : vm.view==1}" style="margin-bottom: 15px;"> 
+						<div class="small-box skyorange box-shadow">
+							<div class="inner">
+								<span class="zoom">
+								<p>{{vm.carreras[4].carrera}}</p>
+								</span>
+								<i class="glyphicon glyphicon-book icon-book"></i>
+							</div>
+							<div class="text-center hardskyorange">
+								<a href="" ng-click="vm.mover(vm.carreras[4].ruta)" class="small-box-footer">ver <i class="glyphicon glyphicon-eye-open"></i></a>
+							</div>
+						</div>
+					</div>
+					<!-- 5 -->
+					<div class="col-lg-3 col-xs-6 top5"  ng-class=" {'hide-top' : vm.view==1}"  style="margin-bottom: 15px;">
+						<div class="small-box skyaqua box-shadow">
+							<div class="inner">
+								<span class="zoom">
+								<p>{{vm.carreras[5].carrera}}</p>
+								</span>
+								<i class="glyphicon glyphicon-book icon-book"></i>
+							</div>
+							<div class="text-center hardskyaqua">
+								<a href="" ng-click="vm.mover(vm.carreras[5].ruta)" class="small-box-footer">ver <i class="glyphicon glyphicon-eye-open"></i></a>
+							</div>
+						</div>
+					</div>
+					<!-- 6 -->
+					<div class="col-lg-3 col-xs-6 right6"  ng-class=" {'hide-right' : vm.view==1}" style="margin-bottom: 15px;">
+						<div class="small-box skypink box-shadow">
+							<div class="inner">
+								<span class="zoom">
+								<p>{{vm.carreras[6].carrera}}</p>
+								</span>
+								<i class="glyphicon glyphicon-book icon-book"></i>
+							</div>
+							<div class="text-center hardskypink">
+								<a href="" ng-click="vm.mover(vm.carreras[6].ruta)" class="small-box-footer">ver <i class="glyphicon glyphicon-eye-open"></i></a>
+							</div>
+						</div>
+					</div>
+					<!-- 7 -->
+					<div class="col-lg-3 col-xs-6 right7" ng-class=" {'hide-right' : vm.view==1}"  style="margin-bottom: 15px;">
+						<div class="small-box skyblue box-shadow">
+							<div class="inner">
+								<span class="zoom" style="width: 100%;">
+								<p>{{vm.carreras[7].carrera}}</p>
+								</span>
+								<i class="glyphicon glyphicon-book icon-book"></i>
+							</div>
+							<div class="text-center hardskyblue">
+								<a href="" ng-click="vm.mover(vm.carreras[7].ruta)" class="small-box-footer">ver <i class="glyphicon glyphicon-eye-open"></i></a>
+							</div>
+						</div>
+					</div>
+					<!-- 8 -->
+					<div class="col-lg-3 col-xs-6 left8" ng-class=" {'hide-left' : vm.view==1}"  style="margin-bottom: 15px;">
+						<div class="small-box skyaquagreen box-shadow">
+							<div class="inner">
+								<span class="zoom">
+								<p>{{vm.carreras[8].carrera}}</p>
+								</span>
+								<i class="glyphicon glyphicon-book icon-book"></i>
+							</div>
+							<div class="text-center hardskyaquagreen">
+								<a href="" ng-click="vm.mover(vm.carreras[8].ruta)" class="small-box-footer">ver <i class="glyphicon glyphicon-eye-open"></i></a>
+							</div>
+						</div>
+					</div>
+					<!-- 9 -->
+					<div class="col-lg-3 col-xs-6 bot9"  ng-class=" {'hide-bot' : vm.view==1}" style="margin-bottom: 15px;">
+						<div class="small-box skypurple box-shadow">
+							<div class="inner">
+								<span class="zoom">
+								<p>{{vm.carreras[9].carrera}}</p>
+								</span>
+								<i class="glyphicon glyphicon-book icon-book"></i>
+							</div>
+							<div class="text-center hardskypurple">
+								<a href="" ng-click="vm.mover(vm.carreras[9].ruta)" class="small-box-footer">ver <i class="glyphicon glyphicon-eye-open"></i></a>
+							</div>
+						</div>
+					</div>
+					<!-- 10 -->
+					<div class="col-lg-3 col-xs-6 bot10" ng-class=" {'hide-bot' : vm.view==1}" style="margin-bottom: 15px;">
+						<div class="small-box skyble box-shadow">
+							<div class="inner">
+								<span class="zoom">
+								<p>{{vm.carreras[10].carrera}}</p>
+								</span>
+								<i class="glyphicon glyphicon-book icon-book"></i>
+							</div>
+							<div class="text-center hardskyble">
+								<a href="" ng-click="vm.mover(vm.carreras[10].ruta)" class="small-box-footer">ver <i class="glyphicon glyphicon-eye-open"></i></a>
+							</div>
+						</div>
+					</div>
+					<!-- 11 -->
+					<div class="col-lg-3 col-xs-6 bot11" ng-class=" {'hide-bot' : vm.view==1}" style="margin-bottom: 15px;">
+						<div class="small-box skygreen box-shadow">
+							<div class="inner">
+								<span class="zoom">
+								<p>{{vm.carreras[11].carrera}}</p>
+								</span>
+								<i class="glyphicon glyphicon-book icon-book"></i>
+							</div>
+							<div class=" text-center hardskygreen">
+								<a href="" ng-click="vm.mover(vm.carreras[11].ruta)" class="small-box-footer">ver <i class="glyphicon glyphicon-eye-open"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- <div ui-view></div> -->
+			</div>
+		</div>
+		
+	</div>
+<!-- 	<div ui-view>
+		
+	</div> -->
+<!-- 	<div>
+		<button ng-click="vm.mover(1)">mover</button>
+	</div>	 -->
+</div>

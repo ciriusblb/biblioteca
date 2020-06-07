@@ -1,0 +1,195 @@
+
+<div class="container-fluid">
+	<div style="height:300; margin-bottom: 20px;">
+		<div class="panel-footer"  id="foundationbanner">
+			<button type="button" class="btn btn-success btn-lg pull-right" style="position:bottom;margin-top:0;">Portada</button>
+			<br>
+			<a href=""> <img src="/img/demo/users/face10.png" class="img-thumbnail hidden-xs" height="280" width="200"> </a>	
+		</div>
+	</div>
+	<div >
+		<div class="row">
+			<div class="col-lg-3 hidden-sm hidden-xs">
+				<div class="panel-footer" style="height:330;">  
+	
+					<ul class="w3-ul">
+					  <li class="w3-hover-red">Home</li>
+					  <li class="w3-hover-red">Profile</li>
+					  <li class="w3-hover-red">Activities</li>
+					  <li class="w3-hover-red">Topic one</li>
+					  <li class="w3-hover-red">Topic two</li>
+					  <li class="w3-hover-red">Topic three</li>
+					  <li class="w3-hover-red">more Link here</li>
+					  <li class="w3-hover-red">more Link here</li>
+					  <li class="w3-hover-red">more Link here</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-9">
+				<div>
+
+					<ul class="nav nav-tabs" >
+						  <li class="nav-item"  role="presentation" ng-class="{'active': vm.active2==0}">
+						    <a class="nav-link" href="" ng-click="vm.vista2(0)">Yo</a>
+						  </li>
+						  <li class="nav-item"   ng-class="{'active': vm.active2==1}">
+						    <a class="nav-link" href="" ng-click="vm.vista2(1)" >Mis libros</a>
+						  </li>
+					</ul>
+					<div class="">
+						<div ng-show="(vm.active2)==0" class="panels col-xs-12">
+						  <ul class="list-group">
+							  <li class="list-group-item input-sm">
+							  	<i class="glyphicon glyphicon-pushpin"></i>
+							  	<span class="col-xs-3">Código de Estudiante:</span>
+							  	<span ng-if="vm.state==true">15121041</span>
+							  	<input ng-if="vm.state==false" type="text">
+							  </li>
+							  <li class="list-group-item input-sm">
+							  	<i class="glyphicon glyphicon-pushpin"></i>
+							  	<span class="col-xs-3">Apellidos y Nombres:</span>
+							  	<span ng-if="vm.state==true">YUPANQUI PUMACHAPI, CIRO</span>
+							  	<input ng-if="vm.state==false" type="text">
+							  </li>
+							  <li class="list-group-item input-sm">
+							  	<i class="glyphicon glyphicon-pushpin"></i>
+							  	<span class="col-xs-3">Dirección:</span>
+							  	<span ng-if="vm.state==true">JR. DANIEL RACUA AA.HH ALBERTO FUJIMORI</span>
+							  	<input ng-if="vm.state==false" type="text">
+							  </li>
+							  <li class="list-group-item input-sm">
+							  	<i class="glyphicon glyphicon-pushpin"></i>
+							  	<span class="col-xs-3">DNI:</span>
+							  	<span ng-if="vm.state==true">76156736</span>
+							  	<input ng-if="vm.state==false" type="text">
+							  </li>
+							  <li class="list-group-item input-sm">
+							  	<i class="glyphicon glyphicon-pushpin"></i>
+							  	<span class="col-xs-3">Email:</span>
+							  	<span ng-if="vm.state==true">ciriusblb@gmail.com</span>
+							  	<input ng-if="vm.state==false" type="text">
+							  </li>
+							  <li class="list-group-item input-sm">
+							  	<i class="glyphicon glyphicon-pushpin"></i>
+							  	<span class="col-xs-3">Fecha Nacimiento:</span>
+							  	<span ng-if="vm.state==true">1998/04/30</span>
+							  	<input ng-if="vm.state==false" type="text">
+							  </li>
+							  <li class="list-group-item input-sm">
+							  	<i class="glyphicon glyphicon-pushpin"></i>
+							  	<span class="col-xs-3">Carrera Profesional:</span>
+							  	<span ng-if="vm.state==true">IS-INGENIERIA DE SISTEMAS E INFORMATICA</span>
+							  	<input ng-if="vm.state==false" type="text">
+							  </li>
+							</ul>
+							<ul class="nav nav-pills">
+				        <li ng-if="vm.state==true"><a class="glyphicon glyphicon-edit icon" ng-click="vm.editar()"></a></li>
+				        <li ng-if="vm.state==false"><a class="glyphicon glyphicon-ok icon" ng-click="vm.editar()"></a></li>
+				      </ul>
+						</div>
+						<div ng-show="(vm.active2)==1" class="panels col-xs-12">
+					            <div class="col-md-3" style="height: 300px;">
+							        <div class="card"> <img class="img-fluid" src="/img/libros/caballero_carmelo.jpg" height="200px">
+							            <div class="card-img-overlay"> <span class="badge badge-pill badge-danger">Leido</span> </div>
+							            <div class="card-body">
+								            <div class="news-title">
+								                <h2 class="title-small"><a href="#">el caballererterto carmelo</a></h2>
+								            </div>
+							          	</div>
+					              	</div>
+					      		</div>
+					      		<div class="col-md-3" style="height: 300px;">
+							        <div class="card"> <img class="img-fluid" src="/img/demo/users/face11.png"  height="200px">
+							            <div class="card-img-overlay"> <span class="badge badge-pill badge-danger" style="background: red; color: #fff;">Reservado</span> </div>
+							            <div class="card-body">
+								            <div class="news-title">
+								                <h2 class="title-small"><a href="#">el caballero carmelo</a></h2>
+								            </div>
+							          	</div>
+					              	</div>
+					      		</div>
+					      		<div class="col-md-3" style="height: 300px;">
+							        <div class="card"> <img class="img-fluid" src="/img/ask.png" height="200px">
+							            <div class="card-img-overlay"> <span class="badge badge-pill badge-danger">Leido</span> </div>
+							            <div class="card-body">
+								            <div class="news-title">
+								                <h2 class="title-small"><a href="#">El ingenieoso hifalgo don quijote de la mancha</a></h2>
+								            </div>
+							          	</div>
+					              	</div>
+					      		</div>
+					      		<div class="col-md-3" style="height: 300px;">
+							        <div class="card"> <img class="img-fluid" src="/img/perfil.jpg" height="200px">
+							            <div class="card-img-overlay"> <span class="badge badge-pill badge-danger" style="background: red; color: #fff;">Reservado</span> </div>
+							            <div class="card-body">
+								            <div class="news-title">
+								                <h2 class="title-small"><a href="#">el caballero carmelo</a></h2>
+								            </div>
+							          	</div>
+					              	</div>
+					      		</div>
+					      		<div class="col-md-3" style="height: 300px;">
+							        <div class="card"> <img class="img-fluid" src="/img/ask.png" height="200px">
+							            <div class="card-img-overlay"> <span class="badge badge-pill badge-danger">Leido</span> </div>
+							            <div class="card-body">
+								            <div class="news-title">
+								                <h2 class="title-small"><a href="#">el caballrgergergero carmelo</a></h2>
+								            </div>
+							          	</div>
+					              	</div>
+					      		</div>
+					      		<div class="col-md-3" style="height: 300px;">
+							        <div class="card"> <img class="img-fluid" src="/img/user.png" height="200px">
+							            <div class="card-img-overlay"> <span class="badge badge-pill badge-danger" style="background: red; color: #fff;">Reservado</span> </div>
+							            <div class="card-body">
+								            <div class="news-title">
+								                <h2 class="title-small"><a href="#">el caballero carmelo</a></h2>
+								            </div>
+							          	</div>
+					              	</div>
+					      		</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<style>
+.panels{
+	background: #fff;
+	padding: 20px;
+}
+.panels li{
+	border: none;
+}
+.icon{
+	font-size: 50px;
+	color: black;
+}
+#foundationbanner {background-color;white;
+background-repeat:no-repeat;
+background-image: url('/img/portada.jpg');
+background-attachment:center;
+background-position:right;
+background-size:100%,100%;
+}
+
+
+.card{float: left; width:100%}
+.title-small { color: #141517; font-size: 16px; font-weight: 400; line-height: 23px; margin: 6px 0 0;}
+.card-text{margin: 0}
+.text-time{color: #ff0000; font-weight: 600;}
+.card-img-overlay{
+	position: absolute;
+	top: 0px;
+	left: 15px;
+}
+.card img{width: 100%;}
+
+
+
+</style>

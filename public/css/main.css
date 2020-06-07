@@ -1,0 +1,23 @@
+body
+{
+    background: #eee;
+}
+.cabecera{
+	/*z-index: 9999; */
+	background: #2D3A42; 
+}
+.navbar{
+    border-radius: 0px;
+}
+.head-title
+{
+    color: #fff;
+    font-size: 2em;
+}
+
+.jumbotron
+{
+	position: relative;
+    background-image: url('/img/fondo.jpg');
+   /*background: transparent;*/
+}

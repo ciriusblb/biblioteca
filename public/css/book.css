@@ -1,0 +1,168 @@
+#escuelas{
+	overflow: hidden;
+}
+.skyble{
+	background-color: #f6fdff;
+}
+.hardskyble{
+	background-color: #00c0ef;
+}
+.skygreen{
+	background-color: #edfff7;
+}
+.hardskygreen{
+	background-color: #00a65a;
+}
+.skybrown{
+	background-color:#fff9f0;
+}
+.hardskybrown{
+	background-color: #f39c12;
+}
+.skyred{
+	background-color: #fff1ef;
+}
+.hardskyred{
+	background-color: #f56954;
+}
+.skyorange{
+	background-color: #fff8f1;
+}
+.hardskyorange{
+	background-color: #ff851b;
+}
+.skyaqua{
+	background-color: #eaffff;
+}
+.hardskyaqua{
+	background-color: #39cccc;
+}
+.skypink{
+	background-color: #fff2f9;
+}
+.hardskypink{
+	background-color: #85144b;
+}
+.skyblue{
+	background-color: #e5f5ff;
+}
+.hardskyblue{
+	background-color: #0073b7;
+}
+.skyaquagreen{
+	background-color: #e2fff2;
+}
+.hardskyaquagreen{
+	background-color: #3d9970;
+}
+.skypurple{
+	background-color: #f8e2ff;
+}
+.hardskypurple{
+	background-color: #932ab6;
+}
+.text-center a{
+	color: #fff;
+	font-weight: bold;
+}
+.inner{
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+}
+.zoom{
+	text-align: center; 
+	display: flex; align-items: center;
+}
+.icon-book{
+	color: #d1d7d9; 
+	font-size: 50px;
+}
+.text-center{
+	padding: 4px;
+}
+.box-shadow{
+	overflow:hidden;
+	-webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+.box-shadow p {
+-webkit-transition:all .9s ease; /* Safari y Chrome */
+-moz-transition:all .9s ease; /* Firefox */
+-o-transition:all .9s ease; /* IE 9 */
+-ms-transition:all .9s ease; /* Opera */
+width:100%;
+}
+.box-shadow:hover p {
+-webkit-transform:scale(1.25);
+-moz-transform:scale(1.25);
+-ms-transform:scale(1.25);
+-o-transform:scale(1.25);
+transform:scale(1.25);
+}
+
+.top0{
+    top: 0px;
+    transition: top 0.3s;
+}
+.top1{
+    top: 0px;
+    transition: top 0.6s;
+}
+.top2{
+    top: 0px;
+    transition: top 0.9s;
+}
+.right3{
+	right: 0%;
+	transition: right 1.2s;
+}
+.right7{
+	right: 0%;
+	transition: right 1.5s;
+}
+.bot11{
+	bottom: 0px;
+	transition: bottom 1.8s;
+}
+.bot10{
+	bottom: 0px;
+	transition: bottom 2.1s;
+}
+.bot9{
+	bottom: 0px;
+	transition: bottom 2.4s;
+}
+.left8{
+	left: 0%;
+	transition: left 2.7s;
+}
+.top4{
+	top: 0px;
+    transition: top 3s;
+}
+.top5{
+	top: 0px;
+    transition: top 3.3s;
+}
+.right6{
+	right: 0%;
+	transition: right 3.6s;
+}
+.hide-top{
+    top:-500px;
+}
+.hide-right{
+    right:-150%;
+}
+.hide-bot{
+    bottom:-500px;
+}
+.hide-left{
+    left:-150%;
+}
+
+
+
